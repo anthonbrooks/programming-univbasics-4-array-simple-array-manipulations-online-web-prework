@@ -74,6 +74,6 @@ def using_delete_at (array, interger)
   
   i = array[interger]
   
-  array[i].delete
+  array.delete(interger)
   
 end
